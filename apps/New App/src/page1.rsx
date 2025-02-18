@@ -14,6 +14,19 @@
     padding="8px 12px"
     type="main"
   >
+    <Select
+      id="select1"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="98d4a" value="Option 1" />
+      <Option id="f0658" value="Option 2" />
+      <Option id="35a3e" value="Option 3" />
+    </Select>
     <Button id="button1" text="Button" />
     <Table
       id="table1"
@@ -166,5 +179,11 @@
         />
       </ToolbarButton>
     </Table>
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
   </Frame>
 </Screen>

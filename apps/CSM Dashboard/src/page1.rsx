@@ -15,6 +15,7 @@
     padding="8px 12px"
     type="main"
   >
+    <Text id="text1" value="This is a new change" verticalAlign="center" />
     <Table
       id="table1"
       cellSelection="none"

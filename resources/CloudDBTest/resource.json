@@ -1,0 +1,31 @@
+{
+  "type": "postgresql",
+  "host": "ep-young-resonance-a645v4x9.us-west-2.retooldb.com",
+  "port": "5432",
+  "databaseName": "retool",
+  "databaseUsername": "retool",
+  "databasePassword": "",
+  "description": null,
+  "outboundRegion": null,
+  "ssl": true,
+  "editPrivilege": false,
+  "options": {
+    "sshHost": "",
+    "version": "SqlQueryUnified",
+    "sshPassword": "",
+    "sshUsername": "",
+    "authentication": "user_password",
+    "connectionString": "",
+    "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
+    "sshTunnelEnabled": false,
+    "sshPrivateKeyName": "",
+    "rejectUnauthorized": false,
+    "skipVerifyHostname": true,
+    "paramsFromConnectionString": [["sslmode", "require"]],
+    "userExplicitlySetRejectUnauthorized": true
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "bd7a9ba5-5b7f-456f-bfaf-d8f237240c0b",
+  "toolscriptVersion": "1.0.0"
+}

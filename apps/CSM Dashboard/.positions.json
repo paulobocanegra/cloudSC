@@ -1,4 +1,22 @@
 {
+  "button1": {
+    "row": 10.6,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
+  "button2": {
+    "row": 10.6,
+    "col": 3,
+    "height": 1,
+    "width": 2
+  },
+  "select1": {
+    "row": 0.4,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
   "table1": {
     "row": 2.6,
     "col": 1,

@@ -15,6 +15,19 @@
     padding="8px 12px"
     type="main"
   >
+    <Select
+      id="select1"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="dacf9" value="Option 1" />
+      <Option id="555bb" value="Option 2" />
+      <Option id="c15af" value="Option 3" />
+    </Select>
     <Text id="text1" value="This is a new change" verticalAlign="center" />
     <Table
       id="table1"
@@ -167,5 +180,7 @@
         />
       </ToolbarButton>
     </Table>
+    <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
   </Frame>
 </Screen>

@@ -201,7 +201,7 @@
         <Button
           id="button1"
           heightType="fill"
-          style={{ ordered: [{ background: "highlight" }] }}
+          style={{ map: { background: "primary" } }}
           text="Send"
         >
           <Event

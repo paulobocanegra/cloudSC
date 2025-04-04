@@ -1,0 +1,1 @@
+select distinct(product_area) from tickets order by product_area asc

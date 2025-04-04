@@ -1,0 +1,209 @@
+{
+  "container6": {
+    "row": 1.2,
+    "height": 2.4,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container7": {
+    "container": "createSchemaForm",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle6": {
+    "container": "container6",
+    "rowGroup": "header",
+    "subcontainer": "0475c",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 5
+  },
+  "containerTitle7": {
+    "container": "container7",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "createSchemaForm": {
+    "container": "container6",
+    "subcontainer": "0475c",
+    "row": 0,
+    "height": 1.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dataOwner": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dataSourceDescription": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dataType": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "row": 1.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formButton3": {
+    "container": "createSchemaForm",
+    "rowGroup": "footer",
+    "row": 0,
+    "height": 1.4
+  },
+  "formTitle3": {
+    "container": "createSchemaForm",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "phiColumns": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "row": 1,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "schemaName": {
+    "container": "createSchemaForm",
+    "height": 0.2,
+    "width": 12
+  },
+  "sensitiveData": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "teamEmail": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "teamSlackChannel": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text3": {
+    "container": "createSchemaForm",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 6
+  },
+  "text5": {
+    "container": "container6",
+    "rowGroup": "header",
+    "subcontainer": "0475c",
+    "row": 0.8,
+    "col": 6,
+    "height": 0.6,
+    "width": 6
+  },
+  "yamlConfig": {
+    "container": "container7",
+    "subcontainer": "0475c",
+    "row": 1.8,
+    "height": 0.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+return current_user.metadata.redshiftAccess

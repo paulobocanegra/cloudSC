@@ -61,7 +61,6 @@
     }
   },
   "container4": {
-    "row": 0,
     "height": 28.2,
     "width": 10,
     "stackPosition": {
@@ -191,7 +190,6 @@
   "table1": {
     "container": "container3",
     "subcontainer": "ac4d6",
-    "row": 0,
     "height": 8.8,
     "width": 11,
     "stackPosition": {

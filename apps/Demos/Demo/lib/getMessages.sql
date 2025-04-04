@@ -1,0 +1,1 @@
+select * from messages where ticket_id = {{ table1.selectedRow.id }} order by created_at

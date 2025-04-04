@@ -1,0 +1,26 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "64e76556-06af-11f0-bde1-171cfb99724e",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "TableSchemaForm": {
+          "array": []
+        },
+        "SchemaForm": {
+          "array": []
+        },
+        "ViewSchemas": {
+          "array": []
+        },
+        "Permissions": {
+          "array": []
+        }
+      }
+    },
+    "rootScreen": "TableSchemaForm",
+    "version": "3.179.0",
+    "experimentalDataTabEnabled": true
+  }
+}

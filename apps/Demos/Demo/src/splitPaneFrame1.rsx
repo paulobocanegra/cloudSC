@@ -22,6 +22,11 @@
     style={{ ordered: [{ headerBackground: "canvas" }] }}
   >
     <Header>
+      <Text
+        id="text4"
+        value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+        verticalAlign="center"
+      />
       <Text id="containerTitle3" value="#### Tickets" verticalAlign="center" />
     </Header>
     <View id="ac4d6" viewKey="View 1">

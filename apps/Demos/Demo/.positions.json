@@ -17,15 +17,6 @@
       }
     }
   },
-  "button2": {
-    "container": "container3",
-    "rowGroup": "header",
-    "subcontainer": "ac4d6",
-    "row": 1,
-    "col": 1,
-    "height": 1,
-    "width": 2
-  },
   "container1": {
     "container": "listView1",
     "height": 1,
@@ -172,15 +163,6 @@
       }
     }
   },
-  "numberInput1": {
-    "container": "container3",
-    "rowGroup": "header",
-    "subcontainer": "ac4d6",
-    "row": 1.2,
-    "col": 8,
-    "height": 0.2,
-    "width": 4
-  },
   "select1": {
     "container": "form1",
     "row": 5.6,
@@ -279,14 +261,5 @@
         "height": 40
       }
     }
-  },
-  "textInput1": {
-    "container": "container3",
-    "rowGroup": "header",
-    "subcontainer": "ac4d6",
-    "row": 0.6,
-    "col": 3,
-    "height": 0.2,
-    "width": 4
   }
 }

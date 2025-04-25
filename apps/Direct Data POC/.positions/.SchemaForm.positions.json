@@ -43,7 +43,6 @@
   "createSchemaForm": {
     "container": "container6",
     "subcontainer": "0475c",
-    "row": 0,
     "height": 1.4,
     "width": 12,
     "stackPosition": {
@@ -102,7 +101,6 @@
   "formButton3": {
     "container": "createSchemaForm",
     "rowGroup": "footer",
-    "row": 0,
     "height": 1.4
   },
   "formTitle3": {

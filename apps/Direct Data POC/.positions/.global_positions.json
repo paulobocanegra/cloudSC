@@ -5,6 +5,12 @@
     "height": 0.2,
     "width": 1
   },
+  "keyValue1": {
+    "subcontainer": "sidebarFrame1",
+    "row": 7.6,
+    "height": 8.6,
+    "width": 1
+  },
   "navigation1": {
     "subcontainer": "sidebarFrame1",
     "height": 0.8,
@@ -14,6 +20,18 @@
     "rowGroup": "header",
     "subcontainer": "sidebarFrame1",
     "height": 0.6,
+    "width": 1
+  },
+  "textInput2": {
+    "subcontainer": "sidebarFrame1",
+    "row": 7.4,
+    "height": 0.2,
+    "width": 1
+  },
+  "textInput3": {
+    "subcontainer": "sidebarFrame1",
+    "row": 5.8,
+    "height": 0.2,
     "width": 1
   }
 }

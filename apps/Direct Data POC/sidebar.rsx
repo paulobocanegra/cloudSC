@@ -94,6 +94,8 @@
         waitType="debounce"
       />
     </Navigation>
+    <TextInput id="textInput3" labelPosition="top" placeholder="Enter value" />
+    <TextInput id="textInput2" labelPosition="top" placeholder="Enter value" />
     <KeyValue
       id="keyValue1"
       data="{

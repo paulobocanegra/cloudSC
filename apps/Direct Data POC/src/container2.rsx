@@ -16,19 +16,19 @@
   </Header>
   <View id="0475c" viewKey="View 1">
     <TextInput
-      id="targetSchemaNameInput"
-      formDataKey="target_schema_name"
-      label="Target schema name"
-      labelPosition="top"
-      placeholder="e.g., bronze_sales"
-      required={true}
-    />
-    <TextInput
       id="targetTableNameInput"
       formDataKey="target_table_name"
       label="Target table name"
       labelPosition="top"
       placeholder="e.g., sales_data"
+      required={true}
+    />
+    <TextInput
+      id="targetSchemaNameInput"
+      formDataKey="target_schema_name"
+      label="Target schema name"
+      labelPosition="top"
+      placeholder="e.g., bronze_sales"
       required={true}
     />
     <TextInput

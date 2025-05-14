@@ -1,0 +1,111 @@
+id: continueIf
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    if (sqlQuery.data.length > 0) {
+      executePathAtMostOnce('0')
+    }
+    else { executePathAtMostOnce('1') }
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-05-01T19:54:06.609Z
+blockData:
+  top: 48
+  left: 896
+  uuid: 08ce56f8-0979-4882-8521-07c948a9a1ff
+  comment:
+    body: Check if there are any orders that meet the criteria.
+    visible: true
+    pluginId: continueIf
+  options:
+    conditions:
+      - id: 7d61a674-9ced-4360-98c1-36c89585c230
+        type: if
+        statement: sqlQuery.data.length > 0
+        outgoingPortId: b95c3efa-9e3f-4cea-b3f7-6c0ffd876af6
+      - id: a72169e9-ab71-4c35-8f6b-8f0f38aea35b
+        type: else
+        statement: ''
+        outgoingPortId: 537c304f-c0e0-4332-a6a1-6291902d140b
+  pluginId: continueIf
+  blockType: conditional
+  editorType: JavascriptQuery
+  onboarding: false
+  resourceName: JavascriptQuery
+  outgoingPorts:
+    - id: b95c3efa-9e3f-4cea-b3f7-6c0ffd876af6
+      name: '0'
+      type: conditional
+    - id: 537c304f-c0e0-4332-a6a1-6291902d140b
+      name: '1'
+      type: conditional
+  incomingOnSuccessEdges:
+    - 317ac9aa-7aa1-4cfd-941b-c57633c9983b

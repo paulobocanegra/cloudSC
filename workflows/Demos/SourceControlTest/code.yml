@@ -1,0 +1,100 @@
+id: code
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: >-
+    const orders = sqlQuery.data;
+
+    const formattedOrders = orders.map(order => `Order ID: ${order.id}, Customer
+    Email: ${order.email}`).join('\n');
+
+    return formattedOrders;
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-05-01T19:54:07.820Z
+blockData:
+  top: 48
+  left: 1288
+  uuid: 3bcc8361-3022-4854-bc68-8df45626cdcb
+  comment:
+    body: Format the order details for the email.
+    visible: true
+    pluginId: code
+  pluginId: code
+  blockType: code
+  dimensions:
+    width: 400
+    height: 400
+  editorType: JavascriptQuery
+  onboarding: false
+  resourceName: JavascriptQuery
+  incomingPorts:
+    - portId: b95c3efa-9e3f-4cea-b3f7-6c0ffd876af6
+      blockId: 08ce56f8-0979-4882-8521-07c948a9a1ff
+  incomingOnSuccessEdges: []

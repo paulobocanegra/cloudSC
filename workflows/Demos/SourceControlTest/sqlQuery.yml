@@ -27,7 +27,7 @@ template:
   headers: ''
   showFailureToaster: true
   paginationEnabled: false
-  query: SELECT "id", "email" FROM sample_orders WHERE "quantity" > 25
+  query: SELECT "id", "email" FROM sample_orders WHERE "quantity" > 50
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -88,8 +88,8 @@ blockData:
   left: 440
   uuid: 317ac9aa-7aa1-4cfd-941b-c57633c9983b
   comment:
-    body: Retrieve orders with quantity greater than 25.
-    visible: true
+    body: ''
+    visible: false
     pluginId: sqlQuery
   pluginId: sqlQuery
   blockType: default

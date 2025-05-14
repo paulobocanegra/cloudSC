@@ -83,8 +83,8 @@ blockData:
   left: 1288
   uuid: 3bcc8361-3022-4854-bc68-8df45626cdcb
   comment:
-    body: Format the order details for the email.
-    visible: true
+    body: ''
+    visible: false
     pluginId: code
   pluginId: code
   blockType: code

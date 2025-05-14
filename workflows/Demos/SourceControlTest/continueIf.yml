@@ -82,8 +82,8 @@ blockData:
   left: 896
   uuid: 08ce56f8-0979-4882-8521-07c948a9a1ff
   comment:
-    body: Check if there are any orders that meet the criteria.
-    visible: true
+    body: ''
+    visible: false
     pluginId: continueIf
   options:
     conditions:

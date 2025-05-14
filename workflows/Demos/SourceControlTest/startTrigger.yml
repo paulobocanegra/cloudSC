@@ -113,5 +113,5 @@ blockData:
   editorType: JavascriptQuery
   onboarding: false
   isMinimized: false
-  resourceName: webhook
+  resourceName: JavascriptQuery
   incomingOnSuccessEdges: []

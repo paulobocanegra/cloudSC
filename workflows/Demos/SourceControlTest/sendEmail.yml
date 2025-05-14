@@ -96,8 +96,8 @@ blockData:
   left: 1760
   uuid: ff10af56-2f7d-4808-99ba-7dbde13a8b55
   comment:
-    body: Send the email to the marketing team with the order details.
-    visible: true
+    body: ''
+    visible: false
     pluginId: sendEmail
   pluginId: sendEmail
   blockType: default

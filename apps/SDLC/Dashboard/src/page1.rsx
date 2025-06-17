@@ -21,6 +21,7 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Button id="button1" text="Button" />
     <Table
       id="table1"
       cellSelection="none"
@@ -172,5 +173,6 @@
         />
       </ToolbarButton>
     </Table>
+    <Button id="button2" text="Button" />
   </Frame>
 </Screen>

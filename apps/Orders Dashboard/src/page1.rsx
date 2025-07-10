@@ -16,7 +16,7 @@
     padding="8px 12px"
     type="main"
   >
-    <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
     <Table
       id="table1"
       cellSelection="none"
@@ -168,5 +168,18 @@
         />
       </ToolbarButton>
     </Table>
+    <Select
+      id="select1"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="00030" value="Option 1" />
+      <Option id="00031" value="Option 2" />
+      <Option id="00032" value="Option 3" />
+    </Select>
   </Frame>
 </Screen>

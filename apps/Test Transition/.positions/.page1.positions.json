@@ -1,12 +1,24 @@
 {
   "button1": {
-    "row": 6,
+    "row": 2.2,
     "col": 1,
     "height": 1,
     "width": 2
   },
+  "button2": {
+    "row": 0.8,
+    "col": 5,
+    "height": 1,
+    "width": 2
+  },
+  "mixedChart1": {
+    "row": 2.6,
+    "col": 7,
+    "height": 7.6,
+    "width": 5
+  },
   "select1": {
-    "row": 7,
+    "row": 3.2,
     "col": 2,
     "height": 0.2,
     "width": 4
@@ -32,7 +44,7 @@
     }
   },
   "table1": {
-    "row": 7.2,
+    "row": 10.2,
     "col": 2,
     "height": 8,
     "width": 8
@@ -42,5 +54,30 @@
     "rowGroup": "header",
     "height": 0.6,
     "width": 12
+  },
+  "text1": {
+    "container": "tabbedContainer1",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "col": 3,
+    "height": 1,
+    "width": 6
+  },
+  "text2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
   }
 }

@@ -16,12 +16,45 @@
     padding="8px 12px"
     type="main"
   >
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
-    />
+    <Select
+      id="select2"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="00030" value="Option 1" />
+      <Option id="00031" value="Option 2" />
+      <Option id="00032" value="Option 3" />
+    </Select>
+    <Container
+      id="tabbedContainer1"
+      currentViewKey="{{ self.viewKeys[0] }}"
+      footerPadding="4px 12px"
+      headerPadding="4px 12px"
+      padding="12px"
+      showBody={true}
+      showHeader={true}
+    >
+      <Header>
+        <Tabs
+          id="tabs1"
+          itemMode="static"
+          navigateContainer={true}
+          targetContainerId="tabbedContainer1"
+          value="{{ self.values[0] }}"
+        >
+          <Option id="00030" value="Tab 1" />
+          <Option id="00031" value="Tab 2" />
+          <Option id="00032" value="Tab 3" />
+        </Tabs>
+      </Header>
+      <View id="00030" viewKey="View 1" />
+      <View id="00031" viewKey="View 2" />
+      <View id="00032" viewKey="View 3" />
+    </Container>
     <Button id="button1" text="Button" />
     <Select
       id="select1"

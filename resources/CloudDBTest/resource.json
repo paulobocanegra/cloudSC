@@ -3,7 +3,7 @@
   "host": "ep-mute-mode-22074162.us-west-2.retooldb.com",
   "port": "5432",
   "databaseName": "retool",
-  "databaseUsername": "retool",
+  "databaseUsername": "retoolt",
   "databasePassword": "",
   "description": null,
   "outboundRegion": null,

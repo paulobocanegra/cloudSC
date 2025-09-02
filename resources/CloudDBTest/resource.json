@@ -1,6 +1,6 @@
 {
   "type": "postgresql",
-  "host": "ep-young-resonance-a645v4x9.us-west-2.retooldb.com",
+  "host": "ep-mute-mode-22074162.us-west-2.retooldb.com",
   "port": "5432",
   "databaseName": "retool",
   "databaseUsername": "retool",

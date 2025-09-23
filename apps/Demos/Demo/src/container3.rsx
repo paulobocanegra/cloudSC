@@ -11,7 +11,7 @@
   style={{ ordered: [{ headerBackground: "canvas" }] }}
 >
   <Header>
-    <Text id="containerTitle3" value="#### Tickets" verticalAlign="center" />
+    <Text id="containerTitle3" value="#### Tickets123" verticalAlign="center" />
     <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <TextInput id="textInput2" labelPosition="top" placeholder="Enter value" />
     <TextInput id="textInput3" labelPosition="top" placeholder="Enter value" />

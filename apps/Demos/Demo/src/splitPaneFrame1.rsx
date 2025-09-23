@@ -22,11 +22,7 @@
     style={{ ordered: [{ headerBackground: "canvas" }] }}
   >
     <Header>
-      <Text
-        id="containerTitle3"
-        value="#### Tickets teest"
-        verticalAlign="center"
-      />
+      <Text id="containerTitle3" value="#### Tickets" verticalAlign="center" />
     </Header>
     <View id="ac4d6" viewKey="View 1">
       <Table

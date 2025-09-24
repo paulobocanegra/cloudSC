@@ -4,5 +4,8 @@
     "col": 1,
     "height": 8,
     "width": 8
+  },
+  "text1": {
+    "height": 1
   }
 }

@@ -1,1 +1,0 @@
-select * from orders where user_id = {{ userId }} order by id

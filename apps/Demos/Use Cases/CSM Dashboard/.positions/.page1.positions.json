@@ -17,14 +17,8 @@
     "height": 1,
     "width": 2
   },
-  "button4": {
-    "row": 9,
-    "col": 1,
-    "height": 1,
-    "width": 2
-  },
   "button5": {
-    "row": 11.2,
+    "row": 9,
     "col": 1,
     "height": 1,
     "width": 2

@@ -51,20 +51,7 @@
         waitType="debounce"
       />
     </Button>
-    <Button id="button4" text="Nav with UUID">
-      <Event
-        event="click"
-        method="run"
-        params={{
-          map: { src: 'utils.openApp("88abc530-1ed9-11f0-abcb-cbc1e545e604")' },
-        }}
-        pluginId=""
-        type="script"
-        waitMs="0"
-        waitType="debounce"
-      />
-    </Button>
-    <Button id="button5" text="Button">
+    <Button id="button5" text="UUID Nav">
       <Event
         event="click"
         method="run"

@@ -8,6 +8,12 @@
   urlSlug=""
   uuid="6ddae9ee-b4e5-404a-8399-d58de9f1ceb9"
 >
+  <JavascriptQuery
+    id="query1"
+    notificationDuration={4.5}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
   <Frame
     id="$main"
     enableFullBleed={false}
@@ -50,7 +56,7 @@
         event="click"
         method="run"
         params={{
-          map: { src: 'utils.openApp("fb067813-2217-4d83-be29-8ec18680252e")' },
+          map: { src: 'utils.openApp("88abc530-1ed9-11f0-abcb-cbc1e545e604")' },
         }}
         pluginId=""
         type="script"

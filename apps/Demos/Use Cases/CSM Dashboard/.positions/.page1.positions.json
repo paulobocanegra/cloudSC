@@ -23,6 +23,12 @@
     "height": 1,
     "width": 2
   },
+  "button5": {
+    "row": 11.2,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
   "image1": {
     "col": 1
   },

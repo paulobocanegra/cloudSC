@@ -31,7 +31,7 @@
       itemLabelPosition="top"
       labelWrap={true}
     />
-    <Button id="button3" text="Button">
+    <Button id="button3" text="Nav with Built-in event">
       <Event
         event="click"
         method="openApp"
@@ -41,6 +41,19 @@
         }}
         pluginId=""
         type="util"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
+    <Button id="button4" text="Nav with UUID">
+      <Event
+        event="click"
+        method="run"
+        params={{
+          map: { src: 'utils.openApp("fb067813-2217-4d83-be29-8ec18680252e")' },
+        }}
+        pluginId=""
+        type="script"
         waitMs="0"
         waitType="debounce"
       />

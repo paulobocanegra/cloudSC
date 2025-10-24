@@ -31,6 +31,20 @@
       itemLabelPosition="top"
       labelWrap={true}
     />
+    <Button id="button3" text="Button">
+      <Event
+        event="click"
+        method="openApp"
+        params={{
+          uuid: "88abc530-1ed9-11f0-abcb-cbc1e545e604",
+          options: { map: { pageName: "page1" } },
+        }}
+        pluginId=""
+        type="util"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
     <Table
       id="table2"
       cellSelection="none"

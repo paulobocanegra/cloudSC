@@ -22,6 +22,15 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
+    <KeyValue
+      id="keyValue1"
+      data="{{ retoolContext }}"
+      editIcon="bold/interface-edit-pencil"
+      enableSaveActions={true}
+      groupLayout="singleColumn"
+      itemLabelPosition="top"
+      labelWrap={true}
+    />
     <Table
       id="table2"
       cellSelection="none"

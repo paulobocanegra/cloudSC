@@ -1,12 +1,12 @@
 {
   "button1": {
-    "row": 21.6,
+    "row": 25.2,
     "col": 1,
     "height": 1,
     "width": 2
   },
   "button2": {
-    "row": 21.6,
+    "row": 25.2,
     "col": 3,
     "height": 1,
     "width": 2
@@ -14,26 +14,30 @@
   "image1": {
     "col": 1
   },
+  "keyValue1": {
+    "col": 4,
+    "height": 8.6
+  },
   "select1": {
-    "row": 13,
+    "row": 16.6,
     "col": 4,
     "height": 0.2,
     "width": 4
   },
   "table1": {
-    "row": 13.6,
+    "row": 17.2,
     "col": 1,
     "height": 8,
     "width": 8
   },
   "table2": {
-    "row": 5,
+    "row": 8.6,
     "col": 1,
     "height": 8,
     "width": 8
   },
   "text1": {
-    "row": 13,
+    "row": 16.6,
     "col": 1,
     "height": 1
   }

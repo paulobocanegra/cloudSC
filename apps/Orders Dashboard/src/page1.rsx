@@ -16,6 +16,8 @@
     padding="8px 12px"
     type="main"
   >
+    <Button id="button3" text="Button" />
+    <Button id="button4" text="Button" />
     <KeyValue
       id="keyValue1"
       data="{

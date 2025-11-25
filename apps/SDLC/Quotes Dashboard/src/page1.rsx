@@ -22,7 +22,26 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Select
+      id="select1"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="00030" value="Option 1" />
+      <Option id="00031" value="Option 2" />
+      <Option id="00032" value="Option 3" />
+    </Select>
     <Button id="button1" text="Button" />
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
     <Table
       id="table1"
       cellSelection="none"

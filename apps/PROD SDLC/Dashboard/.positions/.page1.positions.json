@@ -4,5 +4,10 @@
     "col": 1,
     "height": 8,
     "width": 8
+  },
+  "text1": {
+    "row": 3.2,
+    "col": 1,
+    "height": 1
   }
 }

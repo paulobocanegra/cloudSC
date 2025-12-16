@@ -105,7 +105,7 @@
         lineWidth={2}
         markerBorderColor={null}
         markerBorderWidth={0}
-        markerColor="{{ theme.primary }}"
+        markerColor="{{ theme.success }}"
         markerSize={6}
         markerSymbol="circle"
         name="Getproducts - quantity"

@@ -24,6 +24,141 @@
     padding="8px 12px"
     type="main"
   >
+    <Form
+      id="form1"
+      footerPadding="4px 12px"
+      headerPadding="4px 12px"
+      initialData="{{ table1.selectedRow }}"
+      padding="12px"
+      requireValidation={true}
+      resetAfterSubmit={true}
+      scroll={true}
+      showBody={true}
+      showFooter={true}
+      showHeader={true}
+    >
+      <Header>
+        <Text id="formTitle1" value="#### Form title" verticalAlign="center" />
+      </Header>
+      <Body>
+        <NumberInput
+          id="idInput"
+          currency="USD"
+          formDataKey="id"
+          inputValue={0}
+          label="ID"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+          showSeparators={true}
+          showStepper={true}
+          value={0}
+        />
+        <TextInput
+          id="nameInput"
+          formDataKey="name"
+          label="Name"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+        />
+        <TextInput
+          id="emailInput"
+          formDataKey="email"
+          iconBefore="bold/mail-send-envelope"
+          label="Email"
+          labelPosition="top"
+          patternType="email"
+          placeholder="you@example.com"
+          required={true}
+        />
+        <TextInput
+          id="productIdInput"
+          formDataKey="product_id"
+          label="Product ID"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+        />
+        <NumberInput
+          id="quantityInput"
+          currency="USD"
+          formDataKey="quantity"
+          inputValue={0}
+          label="Quantity"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+          showSeparators={true}
+          showStepper={true}
+          value={0}
+        />
+        <DateTime
+          id="orderRequestedInput"
+          dateFormat="MMM d, yyyy"
+          datePlaceholder="{{ self.dateFormat.toUpperCase() }}"
+          formDataKey="order_requested"
+          iconBefore="bold/interface-calendar"
+          label="Order requested"
+          labelPosition="top"
+          minuteStep={15}
+          required={true}
+          value="{{ new Date() }}"
+        />
+        <DateTime
+          id="orderCompletedInput"
+          dateFormat="MMM d, yyyy"
+          datePlaceholder="{{ self.dateFormat.toUpperCase() }}"
+          formDataKey="order_completed"
+          iconBefore="bold/interface-calendar"
+          label="Order completed"
+          labelPosition="top"
+          minuteStep={15}
+          required={true}
+          value="{{ new Date() }}"
+        />
+        <Checkbox
+          id="receivedPaymentInput"
+          formDataKey="received_payment"
+          label="Received payment"
+          labelWidth="100"
+          required={true}
+        />
+        <DateTime
+          id="dateTestInput"
+          dateFormat="MMM d, yyyy"
+          datePlaceholder="{{ self.dateFormat.toUpperCase() }}"
+          formDataKey="date_test"
+          iconBefore="bold/interface-calendar"
+          label="Date test"
+          labelPosition="top"
+          minuteStep={15}
+          required={true}
+          value="{{ new Date() }}"
+        />
+        <NumberInput
+          id="priceInput"
+          currency="USD"
+          formDataKey="price"
+          inputValue={0}
+          label="Price"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+          showSeparators={true}
+          showStepper={true}
+          value={0}
+        />
+      </Body>
+      <Footer>
+        <Button
+          id="formButton1"
+          submit={true}
+          submitTargetId="form1"
+          text="Submit"
+        />
+      </Footer>
+    </Form>
     <Text
       id="text1"
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"

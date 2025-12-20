@@ -34,129 +34,115 @@
     padding="8px 12px"
     type="main"
   >
-    <Container
-      id="container1"
-      footerPadding="4px 12px"
-      headerPadding="4px 12px"
-      padding="12px"
-      showBody={true}
-      showHeader={true}
+    <Chart
+      id="barChart1"
+      barGap={0.4}
+      barMode="group"
+      legendPosition="none"
+      selectedPoints="[]"
+      showAutoscale={true}
+      showBoxSelect={true}
+      showLassoSelect={true}
+      showPan={true}
+      showResetView={true}
+      showToImage={true}
+      showToolbarAddOn={true}
+      showZoomIn={true}
+      showZoomOut={true}
+      showZoomSelect={true}
+      stackedBarTotalsDataLabelPosition="none"
+      title="Product Inventory"
+      xAxisRangeMax=""
+      xAxisRangeMin=""
+      xAxisShowTickLabels={true}
+      xAxisTickFormat=".5f"
+      xAxisTickFormatMode="gui"
+      xAxisTitleStandoff={20}
+      yAxis2LineWidth={1}
+      yAxis2RangeMax=""
+      yAxis2RangeMin=""
+      yAxis2ShowTickLabels={true}
+      yAxis2TickFormatMode="gui"
+      yAxis2TitleStandoff={20}
+      yAxisRangeMax=""
+      yAxisRangeMin=""
+      yAxisShowTickLabels={true}
+      yAxisTickFormat=".0f"
+      yAxisTickFormatMode="gui"
+      yAxisTitleStandoff={20}
     >
-      <Header>
-        <Text id="containerTitle1" value="#### Test" verticalAlign="center" />
-      </Header>
-      <View id="00030" viewKey="View 1">
-        <Chart
-          id="barChart1"
-          barGap={0.4}
-          barMode="group"
-          legendPosition="none"
-          selectedPoints="[]"
-          showAutoscale={true}
-          showBoxSelect={true}
-          showLassoSelect={true}
-          showPan={true}
-          showResetView={true}
-          showToImage={true}
-          showToolbarAddOn={true}
-          showZoomIn={true}
-          showZoomOut={true}
-          showZoomSelect={true}
-          stackedBarTotalsDataLabelPosition="none"
-          title="Product Inventory"
-          xAxisRangeMax=""
-          xAxisRangeMin=""
-          xAxisShowTickLabels={true}
-          xAxisTickFormat=".5f"
-          xAxisTickFormatMode="gui"
-          xAxisTitleStandoff={20}
-          yAxis2LineWidth={1}
-          yAxis2RangeMax=""
-          yAxis2RangeMin=""
-          yAxis2ShowTickLabels={true}
-          yAxis2TickFormatMode="gui"
-          yAxis2TitleStandoff={20}
-          yAxisRangeMax=""
-          yAxisRangeMin=""
-          yAxisShowTickLabels={true}
-          yAxisTickFormat=".0f"
-          yAxisTickFormatMode="gui"
-          yAxisTitleStandoff={20}
-        >
-          <Series
-            id="0"
-            aggregationType="sum"
-            colorArray={{ array: ["{{ theme.primary }}"] }}
-            colorArrayDropDown={{ array: ["{{ theme.primary }}"] }}
-            colorInputMode="colorArrayDropDown"
-            connectorLineColor="#000000"
-            dataLabelPosition="inside"
-            datasource="{{ getProducts.data }}"
-            datasourceMode="source"
-            decreasingBorderColor="{{ theme.danger }}"
-            decreasingColor="{{ theme.danger }}"
-            filteredGroups={null}
-            filteredGroupsMode="source"
-            gradientColorArray={{
-              array: [
-                { array: ["0.0", "{{ theme.success }}"] },
-                { array: ["1.0", "{{ theme.primary }}"] },
-              ],
-            }}
-            groupBy={{ array: [] }}
-            groupByDropdownType="source"
-            groupByStyles={{}}
-            hoverTemplate="<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>"
-            hoverTemplateMode="source"
-            increasingBorderColor="{{ theme.success }}"
-            increasingColor="{{ theme.success }}"
-            lineColor="{{ theme.primary }}"
-            lineDash="solid"
-            lineShape="linear"
-            lineUnderFillMode="none"
-            lineWidth={2}
-            markerBorderColor={null}
-            markerBorderWidth={0}
-            markerColor="{{ theme.success }}"
-            markerSize={6}
-            markerSymbol="circle"
-            name="Getproducts - quantity"
-            showMarkers={false}
-            textTemplate="%{y:.0f}"
-            textTemplateMode="manual"
-            type="bar"
-            waterfallBase={0}
-            waterfallMeasures={null}
-            waterfallMeasuresMode="source"
-            xData="{{ getProducts.data.name }}"
-            xDataMode="source"
-            yAxis="y"
-            yData="{{ getProducts.data.quantity }}"
-            yDataMode="source"
-            zData={null}
-            zDataMode="manual"
-          />
-          <Event
-            id="29bd8027"
-            event="hover"
-            method="showNotification"
-            params={{
-              map: {
-                options: {
-                  notificationType: "info",
-                  title: "{{barChart1.title}} was hovered",
-                  description: "Hover Event",
-                },
-              },
-            }}
-            pluginId=""
-            type="util"
-            waitMs="0"
-            waitType="debounce"
-          />
-        </Chart>
-      </View>
-    </Container>
+      <Series
+        id="0"
+        aggregationType="sum"
+        colorArray={{ array: ["{{ theme.primary }}"] }}
+        colorArrayDropDown={{ array: ["{{ theme.primary }}"] }}
+        colorInputMode="colorArrayDropDown"
+        connectorLineColor="#000000"
+        dataLabelPosition="inside"
+        datasource="{{ getProducts.data }}"
+        datasourceMode="source"
+        decreasingBorderColor="{{ theme.danger }}"
+        decreasingColor="{{ theme.danger }}"
+        filteredGroups={null}
+        filteredGroupsMode="source"
+        gradientColorArray={{
+          array: [
+            { array: ["0.0", "{{ theme.success }}"] },
+            { array: ["1.0", "{{ theme.primary }}"] },
+          ],
+        }}
+        groupBy={{ array: [] }}
+        groupByDropdownType="source"
+        groupByStyles={{}}
+        hoverTemplate="<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>"
+        hoverTemplateMode="source"
+        increasingBorderColor="{{ theme.success }}"
+        increasingColor="{{ theme.success }}"
+        lineColor="{{ theme.primary }}"
+        lineDash="solid"
+        lineShape="linear"
+        lineUnderFillMode="none"
+        lineWidth={2}
+        markerBorderColor={null}
+        markerBorderWidth={0}
+        markerColor="{{ theme.success }}"
+        markerSize={6}
+        markerSymbol="circle"
+        name="Getproducts - quantity"
+        showMarkers={false}
+        textTemplate="%{y:.0f}"
+        textTemplateMode="manual"
+        type="bar"
+        waterfallBase={0}
+        waterfallMeasures={null}
+        waterfallMeasuresMode="source"
+        xData="{{ getProducts.data.name }}"
+        xDataMode="source"
+        yAxis="y"
+        yData="{{ getProducts.data.quantity }}"
+        yDataMode="source"
+        zData={null}
+        zDataMode="manual"
+      />
+      <Event
+        id="29bd8027"
+        event="hover"
+        method="showNotification"
+        params={{
+          map: {
+            options: {
+              notificationType: "info",
+              title: "{{barChart1.title}} was hovered",
+              description: "Hover Event",
+            },
+          },
+        }}
+        pluginId=""
+        type="util"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Chart>
     <Chart
       id="lineChart1"
       barMode="group"

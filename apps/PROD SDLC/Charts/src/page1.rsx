@@ -25,7 +25,7 @@
     resourceName="bed8ef58-61ed-4e47-8765-75d6f9a30686"
     warningCodes={[]}
   />
-  <State id="textContent" />
+  <State id="textContent" value="{{ dateRange1.value }}" />
   <Frame
     id="$main"
     enableFullBleed={false}
@@ -43,7 +43,11 @@
       showHeader={true}
     >
       <Header>
-        <Text id="containerTitle1" value="#### Test" verticalAlign="center" />
+        <Text
+          id="containerTitle1"
+          value="#### Breaking change"
+          verticalAlign="center"
+        />
       </Header>
       <View id="00030" viewKey="View 1">
         <Chart

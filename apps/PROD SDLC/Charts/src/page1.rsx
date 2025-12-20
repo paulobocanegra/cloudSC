@@ -25,7 +25,7 @@
     resourceName="bed8ef58-61ed-4e47-8765-75d6f9a30686"
     warningCodes={[]}
   />
-  <State id="textContent" />
+  <State id="textContent" value="{{ dateRange1.value }}" />
   <Frame
     id="$main"
     enableFullBleed={false}
@@ -35,8 +35,7 @@
     type="main"
   >
     <Container
-      id="tabbedContainer1"
-      currentViewKey="{{ self.viewKeys[0] }}"
+      id="container1"
       footerPadding="4px 12px"
       headerPadding="4px 12px"
       padding="12px"
@@ -44,27 +43,13 @@
       showHeader={true}
     >
       <Header>
-        <Tabs
-          id="tabs1"
-          itemMode="static"
-          navigateContainer={true}
-          targetContainerId="tabbedContainer1"
-          value="{{ self.values[0] }}"
-        >
-          <Option id="00030" value="Tab 1" />
-          <Option id="00031" value="Tab 2" />
-          <Option id="00032" value="Tab 3" />
-        </Tabs>
+        <Text
+          id="containerTitle1"
+          value="#### Breaking change"
+          verticalAlign="center"
+        />
       </Header>
       <View id="00030" viewKey="View 1">
-        <Image
-          id="image1"
-          heightType="fixed"
-          horizontalAlign="center"
-          src="https://picsum.photos/id/1025/800/600"
-        />
-      </View>
-      <View id="00031" viewKey="View 2">
         <Chart
           id="barChart1"
           barGap={0.4}
@@ -175,7 +160,6 @@
           />
         </Chart>
       </View>
-      <View id="00032" viewKey="View 3" />
     </Container>
     <Chart
       id="lineChart1"

@@ -9,7 +9,7 @@
     "width": 8
   },
   "dateRange1": {
-    "row": 16.2,
+    "row": 17,
     "height": 0.2,
     "width": 4
   },
@@ -19,12 +19,12 @@
     "width": 5
   },
   "lineChart1": {
-    "row": 7.2,
+    "row": 8.8,
     "height": 8.2,
     "width": 12
   },
   "plotlyJsonChart1": {
-    "row": 18,
+    "row": 17.2,
     "height": 11.8,
     "width": 8
   },
@@ -37,6 +37,11 @@
     "row": 51.4,
     "height": 9.6,
     "width": 7
+  },
+  "textInput1": {
+    "row": 7.2,
+    "height": 0.2,
+    "width": 4
   },
   "treemap1": {
     "row": 61.8,

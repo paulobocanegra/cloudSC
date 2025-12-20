@@ -143,6 +143,7 @@
         waitType="debounce"
       />
     </Chart>
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <Chart
       id="lineChart1"
       barMode="group"

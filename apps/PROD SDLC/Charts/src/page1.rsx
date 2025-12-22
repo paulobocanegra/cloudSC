@@ -34,6 +34,7 @@
     padding="8px 12px"
     type="main"
   >
+    <Button id="button1" text="Button" />
     <Chart
       id="barChart1"
       barGap={0.4}

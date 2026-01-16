@@ -1,0 +1,40 @@
+{
+  "form2": {
+    "row": 3.2,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formButton2": {
+    "container": "form2",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formTitle2": {
+    "container": "form2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "select2": {
+    "container": "form2",
+    "row": 2.2,
+    "height": 0.2,
+    "width": 11
+  },
+  "textInput3": {
+    "container": "form2",
+    "row": 0,
+    "height": 0.2,
+    "width": 12
+  }
+}

@@ -21,6 +21,7 @@
     "sshPrivateKeyName": "",
     "rejectUnauthorized": false,
     "skipVerifyHostname": true,
+    "disableServerSidePrepare": true,
     "paramsFromConnectionString": [["sslmode", "require"]],
     "userExplicitlySetRejectUnauthorized": true
   },

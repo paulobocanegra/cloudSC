@@ -1,0 +1,113 @@
+id: userTask2
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    return {
+        assignees: ,
+        expiryTimeout: ,
+        inputsTemplateString: {"Company" }
+      }
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '120000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-09-03T22:54:20.018Z
+blockData:
+  top: -304
+  left: 4336
+  uuid: 0d94bb3c-2fc6-468e-b60e-32fa6ccba5e1
+  options:
+    taskType: userTask
+    appConfig:
+      - uuid: 0255f96a-8919-11f0-9c1f-c7b5a6b1d876
+    assignees:
+      - id: 1541991
+        type: user
+    groupAssignments: []
+    adminUserAssignments: []
+    inputsTemplateString: '{"Company" }'
+    adminGroupAssignments: []
+    groupAssignmentNames: []
+    assigneesWithTextIdentifiers:
+      - type: user
+        email: paulobocanegra@retool.com
+    adminGroupAssignmentNames: []
+    adminUserAssignmentEmails: []
+  pluginId: userTask2
+  blockType: asyncTask
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  outgoingPorts:
+    - id: b6e3112c-f134-4804-9fd9-d76244795a57
+      name: waitNotification-0d94bb3c-2fc6-468e-b60e-32fa6ccba5e1
+      type: waitNotification
+  incomingOnSuccessEdges:
+    - 6a565996-ceaa-468c-b714-bb25ff6d810e

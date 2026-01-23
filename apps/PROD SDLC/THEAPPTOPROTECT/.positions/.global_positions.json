@@ -1,8 +1,4 @@
 {
-  "image1": {
-    "subcontainer": "header",
-    "row": 1
-  },
   "navigation1": {
     "subcontainer": "header",
     "height": 1,

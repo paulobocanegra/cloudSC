@@ -17,6 +17,12 @@
     padding="8px 12px"
     type="main"
   >
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!** &&&&&"
+      verticalAlign="center"
+    />
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <Table
       id="table1"
       cellSelection="none"

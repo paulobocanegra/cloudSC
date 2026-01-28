@@ -19,10 +19,15 @@
   >
     <Text
       id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!** &&&&&"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!** "
       verticalAlign="center"
     />
-    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
+    <TextInput
+      id="textInput1"
+      label="Search"
+      labelPosition="top"
+      placeholder="Enter value"
+    />
     <Table
       id="table1"
       cellSelection="none"

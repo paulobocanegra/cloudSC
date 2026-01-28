@@ -9,6 +9,14 @@
   urlSlug=""
   uuid="1a21bec1-de45-4ae9-aa15-a0937658d2c6"
 >
+  <SqlQueryUnified
+    id="query1"
+    query={include("../lib/query1.sql", "string")}
+    resourceDisplayName="retool_db"
+    resourceName="fdaefbcd-e34e-40e7-9253-df14e0363cce"
+    resourceTypeOverride=""
+    warningCodes={[]}
+  />
   <Frame
     id="$main"
     enableFullBleed={false}

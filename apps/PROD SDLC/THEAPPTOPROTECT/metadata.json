@@ -3,7 +3,8 @@
   "version": "43.0.9",
   "pageUuid": "2b2cbd40-f87e-11f0-a176-dfbd0621d087",
   "appTemplate": {
+    "appMaxWidth": "100%",
     "rootScreen": "page1",
-    "version": "3.331.0"
+    "version": "3.342.0"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "a397ae28-18ec-11f1-b4dc-7708a9ad56d5",
+  "appTemplate": {
+    "rootScreen": "page1",
+    "version": "3.352.0"
+  }
+}

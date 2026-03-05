@@ -17,12 +17,18 @@
     padding="8px 12px"
     type="main"
   >
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
+    <Button id="button1" text="Button" />
     <Text
       id="text1"
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
-    <Button id="button1" text="Button" />
     <Table
       id="table1"
       cellSelection="none"

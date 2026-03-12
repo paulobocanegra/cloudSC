@@ -182,5 +182,15 @@
         />
       </ToolbarButton>
     </Table>
+    <NumberInput
+      id="numberInput1"
+      currency="USD"
+      inputValue={0}
+      labelPosition="top"
+      placeholder="Enter value"
+      showSeparators={true}
+      showStepper={true}
+      value={0}
+    />
   </Frame>
 </Screen>

@@ -2,4 +2,4 @@ version: 1.0.0
 name: production
 apps:
   - uuid: a397ae28-18ec-11f1-b4dc-7708a9ad56d5
-    release: 1.0.2
+    release: 2.0.0

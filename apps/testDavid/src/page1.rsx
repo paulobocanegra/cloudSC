@@ -17,17 +17,29 @@
     padding="8px 12px"
     type="main"
   >
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
-    />
+    <Select
+      id="select1"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="00030" value="Option 1" />
+      <Option id="00031" value="Option 2" />
+      <Option id="00032" value="Option 3" />
+    </Select>
     <Button id="button1" text="Button" />
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
+    <NumberInput
+      id="numberInput1"
+      currency="USD"
+      inputValue={0}
+      labelPosition="top"
+      placeholder="Enter value"
+      showSeparators={true}
+      showStepper={true}
+      value={0}
     />
     <Table
       id="table1"
@@ -182,15 +194,5 @@
         />
       </ToolbarButton>
     </Table>
-    <NumberInput
-      id="numberInput1"
-      currency="USD"
-      inputValue={0}
-      labelPosition="top"
-      placeholder="Enter value"
-      showSeparators={true}
-      showStepper={true}
-      value={0}
-    />
   </Frame>
 </Screen>
